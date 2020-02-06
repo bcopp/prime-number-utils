@@ -14,13 +14,13 @@ Returns a dict containg each number and its prime factors, {number1:[prime_facto
 ### primes_to(num: int) -> list:
 Returns a list up prime numbers up from 0 to the argument number
   
-### def primes_gen() -> int:
+### primes_gen() -> int:
 A prime number generator. Each next() will return the next prime in the series
  
 ### is_prime(num: int) -> bool:
 Returns whether or not a number is a prime
  
-### def count(start=0, step=1):
+### count(start=0, step=1):
 An infinite iterator, it generate the next number in the series based on the step
  
 ### all(f, iterable) -> bool:
